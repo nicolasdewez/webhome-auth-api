@@ -1,0 +1,21 @@
+{
+    "name": "nicolasdewez/webhome-auth-api",
+    "license": "MIT",
+    "type": "project",
+    "description": "WebHome Project - Auth Api",
+    "autoload": {
+        "psr-4": {
+          "Ndewez\\WebHome\\AuthApiBundle\\": ""
+        }
+    },
+    "require": {
+        "php": ">=5.3.9",
+        "symfony/framework-bundle": "~2.8",
+        "symfony/monolog-bundle": "~2.4",
+        "jms/serializer-bundle": "^1.0",
+        "nicolasdewez/webhome-common": "dev-master"
+    },
+    "require-dev": {
+        "sensio/generator-bundle": "~2.3"
+    }
+}
